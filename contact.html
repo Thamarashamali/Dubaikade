@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us | DubaiKade</title>
+    <meta name="description" content="Get in touch with DubaiKade. Find our location, email, and phone number.">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <!-- FontAwesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container nav-container">
+            <a href="index.html" class="logo">
+                <i class="fa-solid fa-store"></i> DubaiKade
+            </a>
+            
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="contact.html" class="active">Contact</a></li>
+            </ul>
+            
+            <button class="mobile-menu-btn">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <div class="about-hero" style="padding: 6rem 0 3rem; background-color: var(--secondary-color);">
+        <div class="container reveal">
+            <h1>Contact Us</h1>
+            <p>We'd love to hear from you. Reach out to us for any inquiries or support.</p>
+        </div>
+    </div>
+
+    <!-- Contact Section -->
+    <section>
+        <div class="container">
+            <div class="contact-grid">
+                
+                <!-- Contact Info -->
+                <div class="contact-info reveal">
+                    <h2 style="font-size: 2rem; color: var(--secondary-color); margin-bottom: 2rem;">Get In Touch</h2>
+                    
+                    <div class="contact-info-card">
+                        <div class="contact-icon">
+                            <i class="fa-solid fa-location-dot"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>Our Location</h4>
+                            <p>123 Main Street<br>Colombo, Sri Lanka</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-info-card">
+                        <div class="contact-icon">
+                            <i class="fa-solid fa-phone"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>Phone</h4>
+                            <p>+94 77 123 4567</p>
+                            <p>+94 11 234 5678</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-info-card">
+                        <div class="contact-icon">
+                            <i class="fa-solid fa-envelope"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>Email Area</h4>
+                            <p><a href="mailto:info@dubaikade.lk">info@dubaikade.lk</a></p>
+                            <p><a href="mailto:support@dubaikade.lk">support@dubaikade.lk</a></p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-info-card" style="background-color: #f0fdf4; border: 1px solid #bbf7d0;">
+                        <div class="contact-icon" style="background-color: #25D366; color: white;">
+                            <i class="fa-brands fa-whatsapp"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>WhatsApp</h4>
+                            <p>Message us directly for quick responses.</p>
+                            <a href="https://wa.me/94771234567" target="_blank" rel="noopener noreferrer" style="color: #16a34a; font-weight: 600; margin-top: 0.5rem; display: inline-block;">Chat Now <i class="fa-solid fa-arrow-right ml-1"></i></a>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Contact Form -->
+                <div class="reveal" style="transition-delay: 0.2s;">
+                    <form class="contact-form" action="#" method="POST" id="contactForm">
+                        <h3 style="font-size: 1.5rem; color: var(--secondary-color); margin-bottom: 2rem;">Send us a Message</h3>
+                        
+                        <div class="form-group">
+                            <label for="name">Full Name</label>
+                            <input type="text" id="name" name="name" class="form-control" placeholder="John Doe" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="email">Email Address</label>
+                            <input type="email" id="email" name="email" class="form-control" placeholder="john@example.com" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="subject">Subject</label>
+                            <input type="text" id="subject" name="subject" class="form-control" placeholder="How can we help you?" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" class="form-control" placeholder="Write your message here..." required></textarea>
+                        </div>
+                        
+                        <button type="submit" class="btn btn-primary" style="width: 100%;">
+                            Send Message <i class="fa-solid fa-paper-plane ml-2"></i>
+                        </button>
+                    </form>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+
+    <!-- Map Section -->
+    <section style="padding-top: 0;">
+        <div class="container reveal">
+            <h2 class="section-title">Find Us Here</h2>
+            <div class="map-container">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d126743.58585973711!2d79.77380121175855!3d6.921922084657158!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae253d10f7a7003%3A0x320b2e4d32d3838d!2sColombo%2C%20Sri%20Lanka!5e0!3m2!1sen!2sus!4v1715012345678!5m2!1sen!2sus" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <h3><i class="fa-solid fa-store"></i> DubaiKade</h3>
+                    <p>Your premier destination for high-quality electronics, accessories, and fashion.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                    </div>
+                </div>
+                
+                <div class="footer-links">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="products.html">All Products</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="contact.html">Contact Form</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-links">
+                    <h4>Categories</h4>
+                    <ul>
+                        <li><a href="products.html">Electronics</a></li>
+                        <li><a href="products.html">Clothing</a></li>
+                        <li><a href="products.html">Accessories</a></li>
+                        <li><a href="products.html">New Arrivals</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-links">
+                    <h4>Contact Info</h4>
+                    <ul>
+                        <li><i class="fa-solid fa-location-dot" style="width: 20px;"></i> 123 Main Street, City</li>
+                        <li><i class="fa-solid fa-phone" style="width: 20px;"></i> +1 (234) 567-890</li>
+                        <li><i class="fa-solid fa-envelope" style="width: 20px;"></i> hello@dubaikade.lk</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2026 DubaiKade. All Rights Reserved. Designed with <i class="fa-solid fa-heart" style="color: #ef4444;"></i></p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="js/script.js"></script>
+    <script>
+        // Check for product inquiry in URL
+        document.addEventListener('DOMContentLoaded', () => {
+            const urlParams = new URLSearchParams(window.location.search);
+            const productId = urlParams.get('product');
+            
+            if (productId) {
+                const subjectInput = document.getElementById('subject');
+                const messageInput = document.getElementById('message');
+                
+                if (subjectInput && messageInput) {
+                    subjectInput.value = `Product Inquiry (ID: ${productId})`;
+                    messageInput.value = `I am interested in purchasing the product with ID: ${productId}. Please provide me with more details regarding availability and delivery.`;
+                }
+            }
+        });
+
+        // Simple form submission prevention for demo purposes
+        const contactForm = document.getElementById('contactForm');
+        if (contactForm) {
+            contactForm.addEventListener('submit', (e) => {
+                e.preventDefault();
+                const btn = contactForm.querySelector('button[type="submit"]');
+                const originalText = btn.innerHTML;
+                
+                btn.innerHTML = 'Sending... <i class="fa-solid fa-spinner fa-spin ml-2"></i>';
+                btn.disabled = true;
+                
+                setTimeout(() => {
+                    btn.innerHTML = 'Message Sent! <i class="fa-solid fa-check ml-2"></i>';
+                    btn.classList.add('btn-success');
+                    btn.style.backgroundColor = '#10b981';
+                    btn.style.borderColor = '#10b981';
+                    contactForm.reset();
+                    
+                    setTimeout(() => {
+                        btn.innerHTML = originalText;
+                        btn.disabled = false;
+                        btn.style.backgroundColor = '';
+                        btn.style.borderColor = '';
+                    }, 3000);
+                }, 1500);
+            });
+        }
+    </script>
+</body>
+</html>

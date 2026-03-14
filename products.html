@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products | DubaiKade</title>
+    <meta name="description" content="Browse our wide selection of premium products at DubaiKade.">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <!-- FontAwesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container nav-container">
+            <a href="index.html" class="logo">
+                <i class="fa-solid fa-store"></i> DubaiKade
+            </a>
+            
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="products.html" class="active">Products</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            
+            <button class="mobile-menu-btn">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <div class="about-hero" style="padding: 6rem 0 3rem;">
+        <div class="container reveal">
+            <h1>Our Collection</h1>
+            <p>Discover our carefully curated selection of premium products designed for your lifestyle.</p>
+        </div>
+    </div>
+
+    <!-- Products Section -->
+    <section>
+        <div class="container">
+            <div class="products-wrapper">
+                
+                <!-- Filters & Search -->
+                <div class="products-filter reveal">
+                    <div class="category-btns">
+                        <button class="category-btn active" data-category="all">All Items</button>
+                        <button class="category-btn" data-category="electronics">Electronics</button>
+                        <button class="category-btn" data-category="clothing">Clothing</button>
+                        <button class="category-btn" data-category="accessories">Accessories</button>
+                    </div>
+                    
+                    <div class="search-bar">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                        <input type="text" id="search-input" placeholder="Search products...">
+                    </div>
+                </div>
+
+                <!-- Product Grid -->
+                <div class="products-grid" id="products-grid">
+                    <!-- Products will be injected here via JS -->
+                </div>
+                
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section style="background-color: var(--bg-light); text-align: center;">
+        <div class="container reveal">
+            <h2 style="font-size: 2rem; margin-bottom: 1rem; color: var(--secondary-color);">Can't Find What You're Looking For?</h2>
+            <p style="color: var(--text-light); margin-bottom: 2rem; font-size: 1.125rem;">Contact us and we'll try to source it for you through our extensive network.</p>
+            <a href="contact.html" class="btn btn-primary">Make a Request</a>
+        </div>
+    </section>
+
+    <!-- Floating WhatsApp -->
+    <a href="https://wa.me/1234567890" class="whatsapp-float" target="_blank" rel="noopener noreferrer">
+        <i class="fa-brands fa-whatsapp"></i>
+    </a>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <h3><i class="fa-solid fa-store"></i> DubaiKade</h3>
+                    <p>Your premier destination for high-quality electronics, accessories, and fashion.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                    </div>
+                </div>
+                
+                <div class="footer-links">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="products.html">All Products</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="contact.html">Contact Form</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-links">
+                    <h4>Categories</h4>
+                    <ul>
+                        <li><a href="products.html">Electronics</a></li>
+                        <li><a href="products.html">Clothing</a></li>
+                        <li><a href="products.html">Accessories</a></li>
+                        <li><a href="products.html">New Arrivals</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-links">
+                    <h4>Contact Info</h4>
+                    <ul>
+                        <li><i class="fa-solid fa-location-dot" style="width: 20px;"></i> 123 Main Street, City</li>
+                        <li><i class="fa-solid fa-phone" style="width: 20px;"></i> +1 (234) 567-890</li>
+                        <li><i class="fa-solid fa-envelope" style="width: 20px;"></i> hello@dubaikade.lk</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2026 DubaiKade. All Rights Reserved. Designed with <i class="fa-solid fa-heart" style="color: #ef4444;"></i></p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="js/products.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
